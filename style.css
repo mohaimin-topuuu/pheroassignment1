@@ -1,6 +1,211 @@
+body {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #1e1e1e;
+    max-width: 90%;
+    margin: auto !important;
+}
+/* Header area starts */
+header a {
+    text-decoration: none;
+    color: #1e1e1e
+}
+.header-area {
+    display: flex;
+    padding: 40px 0px;
+}
+.logo-area {
+    flex: 1;
+}
+.resume-area {
+    float: right;
+}
+.resume-area a {
+    border: 1px solid #1e1e1e;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*Header area ends */
+/*Main area starts */
+.hero-section {
+    text-align: center;
+    padding: 20px 0;
+}
+.hero-section button {
+    padding: 8px 10px;
+    background-color: #1e1e1e;
+    color: whitesmoke;
+    border-radius: 2px;
+}
+/* Group area starts */
+.group-area h2, p {
+    text-align: center;
+}
+.group-area-1 {
+    display: flex;
+    margin-top: 40px;
+}
+.group-area-1-left {
+    width: 70%;
+    margin-right: 20px;
+}
+.group-area-2-right {
+    width: 50%;
+}
+.group-area-2 {
+    display: flex;
+    margin-top: 15px;
+}
+.group-area-2-left {
+    width: 50%;
+    margin-right: 30px;
+}
+.group-area-3-right {
+    width: 70%;
+}
+.group-area-3 {
+    display: flex;
+    margin-top: 15px;
+}
+.group-area-3-left {
+    width: 70%;
+    margin-right: 20px;
+}
+.group-area-3-right {
+    width: 30%;
+}
+.group-area-contents {
+    text-align: center
+}
+.group-area-contents button {
+    display: inline-block;
+}
+
+/* Group area ends*/
+/*Inspiration area starts */
+.inspiration-area {
+    text-align: center;
+    padding: 30px 0;
+}
+/*Inspiration area ends*/
+/*Current target area starts*/
+.current-target-area {
+    display: block;
+    margin: 30px auto;
+}
+.current-target-area-content {
+    display: flex;
+    margin: 10px auto;
+}
+.current-target-area a {
+    text-decoration: none;
+}
+.current-target-area1, .current-target-area2,
+ .current-target-area3 {
+    flex: 1;
+    padding: 15px 20px;
+    margin: 0 5px;
+}
+.current-target-area2 { 
+    background-color: #f2f6fe;
+    text-align: center;
+}
+.current-target-area1 {
+    background-color: #FFF6F4;
+    text-align: center;
+}
+.current-target-area3 {
+    background-color: #fefdf2;
+    text-align: center
+}
 .hero-section {
     background: url("images/Hero-bg.png");
 }
 .upper-footer-area {
     background: url("images/handshake.jpg");
 }
+
+/* next target area starts */
+.next-target-area {
+    margin: 50px auto;
+}
+.next-target-area a {
+    color: #1e1e1e;
+    margin-left: 10px;
+}
+.next-target-area p {
+    display: block;
+    margin-top: 20px;
+}
+.next-area img {
+    margin-left: 5px;
+}
+.react-area {
+    display: flex;
+    border: 1px solid bisque;
+    border-radius: 2px;
+    margin: 20px auto;
+}
+.react-area-left {
+    width: 15%;
+}
+.react-area-right {
+    width: 85%;
+}
+.node-area {
+    display: flex;
+    border: 1px solid bisque;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+.node-area-left {
+    width: 15%;
+}
+.node-area-right {
+    width: 85%;
+}
+.mongodb-area {
+    display: flex;
+    border: 1px solid bisque;
+    border-radius: 2px;
+    margin: 5px auto;
+}
+.mongodb-area-left {
+    width: 15%;
+}
+.mongodb-area-right {
+    width: 85%;
+}
+
+/*next target area ends */
+/*Footer area starts */
+.upper-footer-area {
+    color: whitesmoke !important;
+    text-align: center;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.upper-footer-area input{
+    padding: 10px 70px;
+}
+.upper-footer-area button {
+    padding: 10px 5px;
+}
+.copyright-area h4 {
+    color: #1e1e1e !important;
+}
+.copyright-area {
+    display: flex;
+    margin: 20px auto
+}
+.copyright-area-left, .copyright-area-right {
+    flex: 1;
+    text-align: center;
+}
+.copyright-area-right {
+    margin: 10px auto;
+}
+
+
+/*footer area ends */
